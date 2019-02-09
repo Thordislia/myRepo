@@ -123,3 +123,5 @@ You know the drill: Save, add, commit, push!
 #git -a -m "added new section to include recent eruption scatterplot" 
 #git push origin master 
 ```
+
+#edit save commit push!

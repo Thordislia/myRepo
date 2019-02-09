@@ -112,7 +112,7 @@ ggplot(data=lavaEruptData, aes(y= volcano, x= eruption, color= volcano, position
   ggtitle("5 Most Recent Eruptions", subtitle="Iuliia's masterpiece") + 
   ylab("Volcano") + 
   xlab ("Eruption year") + 
-  theme(legend.position="none")
+  theme(legend.position="none") 
   
 ```
 
@@ -121,5 +121,5 @@ You know the drill: Save, add, commit, push!
 ```{r}
 #git add -A
 #git -a -m "added new section to include recent eruption scatterplot" 
-#git push origin master
+#git push origin master 
 ```
